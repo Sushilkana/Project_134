@@ -1,0 +1,37 @@
+h1{
+	background-color: skyblue;
+	border-radius:10px;
+	font-size:40px;
+	text-align: center;
+	color: white;
+	font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#Status{
+	margin-left:45%;
+}
+
+#Found{
+	margin-left:45%;
+}
+
+canvas{
+	border: 5px solid pink;
+	border-radius:20px;
+	margin-top:5%;
+}
+
+footer{
+	position:fixed;
+	bottom:0;
+	text-align: center;
+	font-size: xx-large;
+	background-color: bisque;
+	color: red;
+	width: 100%;
+}
+
+body{
+	background-image:url("background.jpg") ;
+	background-size: cover;
+}
