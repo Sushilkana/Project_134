@@ -18,7 +18,7 @@ function setup(){
 
 function draw(){
 	image(video,0,0,600,400);
-	if (status == "true" && object.length>1){
+	if (status == "true" && object.length>0){
 		for(i=0; i<object.lenght; i++){
 			document.getElementById('Status').innerHTML = "Status: Object Detected";
 
